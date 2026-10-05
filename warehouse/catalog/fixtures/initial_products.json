@@ -1,0 +1,12 @@
+[
+  {"model": "catalog.product", "pk": 1, "fields": {"name": "Monopoly", "min_players": 2, "max_players": 6, "genre": "Економічна", "price": "1200.00"}},
+  {"model": "catalog.product", "pk": 2, "fields": {"name": "Catan", "min_players": 3, "max_players": 4, "genre": "Стратегія", "price": "1850.00"}},
+  {"model": "catalog.product", "pk": 3, "fields": {"name": "Carcassonne", "min_players": 2, "max_players": 5, "genre": "Містобудування", "price": "1100.00"}},
+  {"model": "catalog.product", "pk": 4, "fields": {"name": "Dixit", "min_players": 3, "max_players": 6, "genre": "Асоціації", "price": "1350.00"}},
+  {"model": "catalog.product", "pk": 5, "fields": {"name": "Ticket to Ride", "min_players": 2, "max_players": 5, "genre": "Пригоди", "price": "2100.00"}},
+  {"model": "catalog.product", "pk": 6, "fields": {"name": "Pandemic", "min_players": 2, "max_players": 4, "genre": "Кооперативна", "price": "1600.00"}},
+  {"model": "catalog.product", "pk": 7, "fields": {"name": "7 Wonders", "min_players": 2, "max_players": 7, "genre": "Карткова стратегія", "price": "1950.00"}},
+  {"model": "catalog.product", "pk": 8, "fields": {"name": "Alias", "min_players": 4, "max_players": 12, "genre": "Для вечірок", "price": "850.00"}},
+  {"model": "catalog.product", "pk": 9, "fields": {"name": "Munchkin", "min_players": 3, "max_players": 6, "genre": "Карткова / Пародія", "price": "750.00"}},
+  {"model": "catalog.product", "pk": 10, "fields": {"name": "Dungeons & Dragons Starter Set", "min_players": 2, "max_players": 6, "genre": "Rogue / Рольова", "price": "1400.00"}}
+]

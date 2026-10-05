@@ -1,0 +1,35 @@
+{% extends 'base.html' %}
+{% load catalog_extras %}
+
+{% block title %}Список товарів - Настільні ігри{% endblock %}
+
+{% block content %}
+<h2>Список настільних ігор на складі</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Назва гри</th>
+            <th>Кількість гравців</th>
+            <th>Жанр</th>
+            <th>Ціна</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for product in products %}
+        <tr>
+            <td>{{ product.id }}</td>
+            <td>{{ product.name }}</td>
+            <td>{{ product.min_players }} - {{ product.max_players }}</td>
+            <td>{{ product.genre }}</td>
+            <td>{{ product.price|uah }}</td>
+        </tr>
+        {% empty %}
+        <tr>
+            <td colspan="5" class="empty-msg">Товарів немає у базі даних.</td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock %}
